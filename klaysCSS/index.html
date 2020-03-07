@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>klaysCSS version 1</title>
     <link rel="stylesheet" href="klayscss-v1.css">
+    <link rel="stylesheet" href="site.css">
 </head>
-<body>
-    <div class="container">
-        <h1>klaysCSS</h1>
-        <p>Sample page</p>
-        <h3>
-            CSS (v1): <a href="https://tomas-barros.github.io/klaysCSS/klayscss-v1.css">click here</a>
-        </h3>
 
-        <div class="wrapp">
+<body>
+    <header>
+        <a href="#">klaysCSS</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#headers">Headers</a></li>
+            <li><a href="#buttons">Buttons</a></li>
+            <li><a href="#inputs">Inputs</a></li>
+            <li><a href="#alerts">Alerts</a></li>
+        </ul>
+    </header>
+
+    <div class="medium-alert alert secondary a-reset">
+        <strong>LAST RELEASE:</strong> <a href="https://tomas-barros.github.io/klaysCSS/klayscss-v1.css">click here!</a>
+    </div>
+
+    <div class="container">
+
+        <div class="wrapp" id="headers">
             <h1>Header 1</h1>
             <h2>Header 2</h2>
             <h3>Header 3</h3>
@@ -23,8 +36,8 @@
             <h6>Header 6</h6>
         </div>
 
-        <h2>Buttons <span class="unactive">Basics</span></h2> 
-        <div class="wrapp">
+        <h2>Buttons <span class="unactive">Basics</span></h2>
+        <div class="wrapp" id="buttons">
             <div class="bt-cont">
                 <div class="btn">
                     <p>Default</p>
@@ -68,6 +81,37 @@
             </div>
         </div>
 
+        <h2>Inputs <span class="unactive">Basics</span></h2>
+        <div class="wrapp" id="inputs">
+            <form action="#" class="inputs">
+                <input type="text" placeholder="Text Label" class="input anim-1">
+            </form>
+        </div>
+
+        <h2>Alerts <span class="unactive">Basics</span></h2>
+        <div class="wrapp" id="alerts">
+            <div class="alerts">
+                <div class="alert primary a-reset">
+                    Primary
+                </div>
+                <div class="alert secondary a-reset">
+                    Secondary
+                </div>
+                <div class="alert warning a-reset">
+                    Warning
+                </div>
+                <div class="alert t-primary a-transp a-reset">
+                    Primary
+                </div>
+                <div class="alert t-secondary a-transp a-reset">
+                    Secondary
+                </div>
+                <div class="alert t-warning a-transp a-reset">
+                    Warning
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
