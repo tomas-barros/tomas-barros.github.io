@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>klaysDM</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <h2>klaysDM</h2>
+    </div>
+
+    <div class="content">
+        <div class="title">
+            <h1>klaysDM</h1>
+            <p>Open Source</p>
+        </div>
+
+        <div class="buttons">
+            <!-- Botón con JS que muestre librerias. -->
+            <button class="btn centerbtn" id="libbtn"><i class="fas fa-book"></i> Librerías</button>
+            <button class="btn centerbtn center"><a href="#"><i class="fas fa-download"></i> Repositorio</a></button>
+            <button class="btn centerbtn" id="credbtn"><i class="far fa-address-book"></i> Créditos</button>
+            <!-- Botón con JS que muestre créditos. -->
+
+            <div id="libs" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>Librerías utilizadas:</h3>
+                    <ul>
+                        <li><a href="#">a_samp</a>, sa-mp team</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="modcred" class="modal">
+                <div class="modal-content">
+                    <span class="close2">&times;</span>
+                    <h3>Créditos:</h3>
+                    <ul>
+                        <li>klays, desarollador principal</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <p>klaysDM &TRADE; 2020</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
