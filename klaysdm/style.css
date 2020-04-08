@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.navbar {
+    background: #1e272e;
+    color: #eeeded;
+    padding: 1em 3.5em;
+    height: 7vh;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.content .title {
+    text-align: center;
+    color: #eeeded;
+    padding: 1rem;
+    border: solid #eeeded 2px;
+    border-radius: 10px;
+    margin: 10px 0;
+    transition: background-color .3s,
+                color 3s ease;
+}
+
+.content .title:hover {
+    background-color: #eeeded;
+    color: #1e272e;
+}
+
+.content .buttons {
+    padding: 1rem;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    margin: 0 8px;
+    font-size: 16px;
+    transition: .3s ease;
+    color: #eeeded;
+}
+
+.center {
+    font-size: 18px;
+}
+
+.centerbtn {
+    background-color: #02a75a;
+}
+
+.btn a {
+    color: #eeeded;
+    text-decoration: none;
+}
+
+.btn .fas, .btn .far {
+    margin-right: 5px;
+}
+
+.centerbtn:hover {
+    background-color: #04bb66;
+    transform: scale(1.1);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13vh;
+    background-color: #1e272e;
+    color: #eeeded;
+    font-size: 18px;
+}
+
+#libs, #modcred {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close, .close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close2:hover,
+.close:focus, .close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
