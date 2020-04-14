@@ -23,7 +23,7 @@ fetch("questions.json").then( res => {
 
 // Constantes
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 8;
+const MAX_QUESTIONS = Math.floor(Math.random() * 10);
 
 startGame = () => {
     questionCounter = 0;
