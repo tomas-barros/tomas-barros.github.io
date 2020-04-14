@@ -1,0 +1,130 @@
+[
+    {
+        "question": "¿Dónde queda Renaico?",
+        "choice1": "Brazil",
+        "choice2": "Chile",
+        "choice3": "Perú",
+        "choice4": "Uruguay",
+        "answer": 2
+    },
+    {
+        "question": "¿Dónde queda Buenos Aires?",
+        "choice1": "Argentina",
+        "choice2": "España",
+        "choice3": "México",
+        "choice4": "Portugal",
+        "answer": 1
+    },
+    {
+        "question": "¿En qué año ocurrió el Golpe de Estado de Chile?",
+        "choice1": "1992",
+        "choice2": "1982",
+        "choice3": "2000",
+        "choice4": "1973",
+        "answer": 4
+    },
+    {
+        "question": "¿Quién es el actual presidente de los EE.UU.?",
+        "choice1": "Obama",
+        "choice2": "John F. Kennedy",
+        "choice3": "Donald Trump",
+        "choice4": "Carl Johnson",
+        "answer": 3
+    },
+    {
+        "question": "¿Cuál red social tiene un pájaro azul por logo?",
+        "choice1": "Facebook",
+        "choice2": "Twitter",
+        "choice3": "Instagram",
+        "choice4": "Pinterest",
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el río más largo del mundo?",
+        "choice1": "Río Nilo",
+        "choice2": "Amazonas",
+        "choice3": "Río Renaico",
+        "choice4": "Mapocho",
+        "answer": 2
+    },
+    {
+        "question": "¿Cuándo acabó la II guerra mundial?",
+        "choice1": "1845",
+        "choice2": "1944",
+        "choice3": "1772",
+        "choice4": "1945",
+        "answer": 4
+    },
+    {
+        "question": "¿En qué se especializa la cartografía?",
+        "choice1": "En mapas",
+        "choice2": "En la biblia",
+        "choice3": "En el aire",
+        "choice4": "En fósiles",
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el tercer planeta del sistema solar?",
+        "choice1": "Marte",
+        "choice2": "Tierra",
+        "choice3": "Venus",
+        "choice4": "El sol",
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál videojuego POPULAR está compuesto solamente de cubos?",
+        "choice1": "Call Of Duty",
+        "choice2": "Preguntados",
+        "choice3": "Minecraft",
+        "choice4": "Battlefield",
+        "answer": 3
+    },
+    {
+        "question": "¿Cuál de los siguientes países NO tiene salida soberana al mar?",
+        "choice1": "Chile",
+        "choice2": "Bolivia",
+        "choice3": "Perú",
+        "choice4": "Tristán da acuña",
+        "answer": 2
+    },
+    {
+        "question": "¿Quién fue Federico García Lorca?",
+        "choice1": "Un escritor",
+        "choice2": "Un conquistador",
+        "choice3": "Un vagabundo",
+        "choice4": "Un doctor",
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es la capital de Venezuela?",
+        "choice1": "Bogotá",
+        "choice2": "Caracas",
+        "choice3": "Santiago",
+        "choice4": "Dubái",
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es la capital de Venezuela?",
+        "choice1": "Bogotá",
+        "choice2": "Caracas",
+        "choice3": "Santiago",
+        "choice4": "Dubái",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué arruinó a Venezuela?",
+        "choice1": "La gente",
+        "choice2": "La monarquía",
+        "choice3": "El socialismo",
+        "choice4": "Un sistema feudal",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué arruinó al mundo?",
+        "choice1": "Una guerra",
+        "choice2": "La contaminación",
+        "choice3": "Un chino que comió un murciélago",
+        "choice4": "Una monarquía",
+        "answer": 3
+    }
+]
